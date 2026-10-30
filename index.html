@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Profile Page</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-content">
+        <h1>University of Technology, Jamaica</h1>
+        <p>Student <span>Profile Page</span></p>
+      </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="home">
+      <!-- About Me Section -->
+      <section id="about">
+        <h2>About Me</h2>
+
+        <div class="profile-container">
+          <img src="student.JPG" alt="Photograph of student" />
+
+          <div class="profile-info">
+            <h3>Vashonai McDove</h3>
+
+            <p>
+              <strong>Programme:</strong>
+              Bachelor of Science in Computing
+            </p>
+
+            <p>
+              <strong>Year of Study:</strong>
+              Year 3
+            </p>
+
+            <p>
+              Hello, My name is Vashonai McDove. I am a university student with
+              an interest in technology, programming and developing useful
+              computer systems. I enjoy learning new skills and working on
+              projects that solve real-world problems.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Courses Section -->
+      <section id="courses">
+        <h2>My Courses</h2>
+
+        <ul>
+          <li>CMP2018 - Database Design</li>
+          <li>CIT4001 - Software Implementation</li>
+          <li>CIT2011 - Web Programming</li>
+          <li>CIT4024 - Information Technology Project Management</li>
+        </ul>
+      </section>
+
+      <!-- Weekly Schedule -->
+      <!-- Weekly Schedule -->
+      <section id="schedule">
+        <h2>Weekly Schedule</h2>
+
+        <table>
+          <tr>
+            <th>Course</th>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Activity</th>
+            <th>Room</th>
+          </tr>
+
+          <tr>
+            <td>CMP2018 - Database Design</td>
+            <td>Monday</td>
+            <td>5:00 PM - 5:50 PM</td>
+            <td>F2F Tutorial</td>
+            <td>2B-2</td>
+          </tr>
+
+          <tr>
+            <td>CMP2018 - Database Design</td>
+            <td>Monday</td>
+            <td>6:00 PM - 8:50 PM</td>
+            <td>F2F Practical</td>
+            <td>C1</td>
+          </tr>
+
+          <tr>
+            <td>CIT4001 - Software Implementation</td>
+            <td>Tuesday</td>
+            <td>12:00 PM - 1:50 PM</td>
+            <td>F2F Tutorial</td>
+            <td>5A-3</td>
+          </tr>
+
+          <tr>
+            <td>CMP2018 - Database Design</td>
+            <td>Tuesday</td>
+            <td>5:00 PM - 5:50 PM</td>
+            <td>Blended Lecture with Online</td>
+            <td>Online</td>
+          </tr>
+
+          <tr>
+            <td>CIT2011 - Web Programming</td>
+            <td>Wednesday</td>
+            <td>6:00 PM - 7:50 PM</td>
+            <td>F2F Tutorial</td>
+            <td>22B-3</td>
+          </tr>
+
+          <tr>
+            <td>CIT4024 - Information Technology Project Management</td>
+            <td>Thursday</td>
+            <td>6:00 PM - 6:50 PM</td>
+            <td>Online Lecture</td>
+            <td>Online</td>
+          </tr>
+
+          <tr>
+            <td>CIT2011 - Web Programming</td>
+            <td>Thursday</td>
+            <td>8:00 PM - 8:50 PM</td>
+            <td>Blended Lecture with Online</td>
+            <td>Online</td>
+          </tr>
+
+          <tr>
+            <td>CIT4001 - Software Implementation</td>
+            <td>Friday</td>
+            <td>1:00 PM - 1:50 PM</td>
+            <td>Blended Lecture with Online</td>
+            <td>Online</td>
+          </tr>
+
+          <tr>
+            <td>CIT4024 - Information Technology Project Management</td>
+            <td>Friday</td>
+            <td>7:00 PM - 8:50 PM</td>
+            <td>Online Tutorial</td>
+            <td>Online</td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Vashonai McDove &copy; 2026 |
+        <span>Student Profile Page</span>
+      </p>
+    </footer>
+  </body>
+</html>

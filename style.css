@@ -1,0 +1,127 @@
+/* Basic page style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
+nav a:hover {
+  color: lightblue;
+}
+
+/* Main content */
+main {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* About section */
+.profile-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: navy;
+  color: white;
+}
+
+/* Form */
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: navy;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Mobile screen */
+@media (max-width: 600px) {
+  main {
+    width: 95%;
+  }
+
+  nav li {
+    display: block;
+    margin: 10px;
+  }
+
+  .profile-container {
+    display: block;
+    text-align: center;
+  }
+
+  .profile-container img {
+    margin-bottom: 10px;
+  }
+}
